@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "author": "dikang",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.48",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.3.0",
+    "dotenv": "^18.0.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.5",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.6",
+    "@babel/core": "^8.0.7",
+    "@babel/preset-env": "^8.0.7",
+    "nodemon": "^3.1.14",
+    "sequelize-cli": "^6.6.5"
+  }
+}
